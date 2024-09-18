@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        "custom-gray": "#f2eeee",
-        "custom-gray2" : "#e7e1e1",
+        "custom-purple": "#44194d",
+        "custom-purple2" : "#58345f",
       },
       boxShadow: {
         'custom-shadow': '4px 4px 8px rgba(0, 0, 0, 0.1)',
