@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\proyectocs\\proyectosVSCODE\\ProyectoBackendCsharp\\ProyectoBackendCsharp.csproj": {}
+    "/home/tomas/DEVELOP/U/MapaConocimiento/ProyectoBackendCsharp/ProyectoBackendCsharp.csproj": {}
   },
   "projects": {
-    "D:\\proyectocs\\proyectosVSCODE\\ProyectoBackendCsharp\\ProyectoBackendCsharp.csproj": {
+    "/home/tomas/DEVELOP/U/MapaConocimiento/ProyectoBackendCsharp/ProyectoBackendCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proyectocs\\proyectosVSCODE\\ProyectoBackendCsharp\\ProyectoBackendCsharp.csproj",
+        "projectUniqueName": "/home/tomas/DEVELOP/U/MapaConocimiento/ProyectoBackendCsharp/ProyectoBackendCsharp.csproj",
         "projectName": "ProyectoBackendCsharp",
-        "projectPath": "D:\\proyectocs\\proyectosVSCODE\\ProyectoBackendCsharp\\ProyectoBackendCsharp.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\proyectocs\\proyectosVSCODE\\ProyectoBackendCsharp\\obj\\",
+        "projectPath": "/home/tomas/DEVELOP/U/MapaConocimiento/ProyectoBackendCsharp/ProyectoBackendCsharp.csproj",
+        "packagesPath": "/home/tomas/.nuget/packages/",
+        "outputPath": "/home/tomas/DEVELOP/U/MapaConocimiento/ProyectoBackendCsharp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Archivos de programa (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/tomas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -98,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,22 +1,14 @@
 import './App.css'
-import { useState } from 'react';
+// import { useState } from 'react';
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Tablas from './Tablas';
 import Sidebar from './Sidebar';
+import Login from './login';
 
 function App() {
-  const [isAnimated, setIsAnimated] = useState(false);
   
-    const animationLogo = (bool,ver)=>{
-      if(ver==="enter"){
-        setIsAnimated(true);
-        console.log(isAnimated);
-      }if(ver==="leave"){
-        setIsAnimated(false);
-        console.log(isAnimated);
-      }
-    }
+
     useEffect((()=>{
     }),
     []);
@@ -27,7 +19,9 @@ function App() {
     <div className='h-screen w-screen flex '>
       <Sidebar></Sidebar>
       <Routes>
-            <Route path='/tablas' element={<Tablas></Tablas>}></Route>  
+              <Route path='/tablas' element={<Tablas></Tablas>}></Route>  
+              <Route path='/' element={<Login></Login>}></Route>  
+              <Route path='/main' element={<App></App>}></Route>  
           </Routes> 
     </div>
       </Router>

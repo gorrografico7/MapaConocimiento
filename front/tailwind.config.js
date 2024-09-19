@@ -1,3 +1,5 @@
+import scrollbarPlugin from 'tailwind-scrollbar';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '475px',
+      },
       colors:{
         "custom-purple": "#44194d",
         "custom-purple2" : "#58345f",
@@ -15,6 +20,7 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    scrollbarPlugin,
+  ],
 }
-
