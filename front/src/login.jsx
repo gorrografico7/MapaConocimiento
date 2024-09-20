@@ -16,7 +16,7 @@ export default function Login() {
                                 <label className="sr-only" htmlFor="email">Email </label>
                                 <input
                                     placeholder="Email address"
-                                    className="appearance-none relative block w-full px-3 py-3 border border-gray-500 bg-gray-300 text-white rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                                    className="appearance-none relative block w-full px-3 py-3 border border-gray-500 bg-gray-300  rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                                     required
                                     type="email"
                                     name="email"
@@ -27,7 +27,7 @@ export default function Login() {
                                 <label className="sr-only" htmlFor="password">Password</label>
                                 <input
                                     placeholder="Password"
-                                    className="appearance-none relative block w-full px-3 py-3 border border-gray-500 bg-gray-300 text-white rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                                    className="appearance-none relative block w-full px-3 py-3 border border-gray-500 bg-gray-300  rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                                     required
                                     type="password"
                                     name="password"
@@ -61,7 +61,7 @@ export default function Login() {
 
                         <div>
                             <button
-                                className="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-gray-900 bg-purple-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                className="text-white group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-gray-900 bg-purple-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                                 type="submit"
                             >
                                 Sign In

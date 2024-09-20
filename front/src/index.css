@@ -125,3 +125,13 @@ to{
   transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
 }
 
+.button-card{
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  width: 60%;
+  border-radius: 6%;
+}
+
+
+.button-card:hover{
+  background: linear-gradient(-45deg, #00dbde 100% , #fc00ff 0% );
+}

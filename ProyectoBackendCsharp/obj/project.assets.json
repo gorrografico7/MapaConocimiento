@@ -4048,19 +4048,19 @@
     ]
   },
   "packageFolders": {
-    "/home/tomas/.nuget/packages/": {}
+    "C:\\Users\\Juanc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tomas/DEVELOP/U/MapaConocimiento/ProyectoBackendCsharp/ProyectoBackendCsharp.csproj",
+      "projectUniqueName": "C:\\Users\\Juanc\\OneDrive\\Desktop\\Tomas\\MapaConocimiento\\ProyectoBackendCsharp\\ProyectoBackendCsharp.csproj",
       "projectName": "ProyectoBackendCsharp",
-      "projectPath": "/home/tomas/DEVELOP/U/MapaConocimiento/ProyectoBackendCsharp/ProyectoBackendCsharp.csproj",
-      "packagesPath": "/home/tomas/.nuget/packages/",
-      "outputPath": "/home/tomas/DEVELOP/U/MapaConocimiento/ProyectoBackendCsharp/obj/",
+      "projectPath": "C:\\Users\\Juanc\\OneDrive\\Desktop\\Tomas\\MapaConocimiento\\ProyectoBackendCsharp\\ProyectoBackendCsharp.csproj",
+      "packagesPath": "C:\\Users\\Juanc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Juanc\\OneDrive\\Desktop\\Tomas\\MapaConocimiento\\ProyectoBackendCsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/tomas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Juanc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4078,6 +4078,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4132,7 +4137,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

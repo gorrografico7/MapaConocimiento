@@ -23,7 +23,7 @@ export default function Sidebar(){
   }
 
   return(
-      <div className={ validateNavbar() ? 'h-screen w-20 bg-purple-500 shadow-custom-shadow rounded-xl flex flex-col items-center animation-navbar' : 'h-screen w-20 bg-purple-500 shadow-custom-shadow rounded-xl flex flex-col items-center animation-navbar2'}>
+      <div className={ validateNavbar() ? 'h-screen w-20 bg-purple-500 shadow-custom-shadow rounded-lg flex flex-col items-center animation-navbar' : 'h-screen w-20 bg-purple-500 shadow-custom-shadow rounded-lg flex flex-col items-center animation-navbar2'}>
       <div onClick={verClick}  className={ validateNavbar() ? 'w-11/12 h-16 bg-purple-500 hover:bg-custom-purple2 rounded-xl flex items-center justify-center hover:cursor-pointer mt-3 div-back ':'w-11/12 h-16 mt-3 bg-purple-500 hover:bg-indigo-5 rounded-xl flex items-center justify-center hover:cursor-pointer '}>
          <IoIosArrowForward 
          color='white' 

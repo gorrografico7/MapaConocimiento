@@ -2,14 +2,13 @@ import './App.css'
 // import { useState } from 'react';
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Tablas from './Tablas';
+import Tablas from './Tablas/Tablas';
 import Sidebar from './Sidebar';
 import Login from './login';
+import Read from './Tablas/Read';
 
 function App() {
-  
-
-    useEffect((()=>{
+      useEffect((()=>{
     }),
     []);
 
@@ -22,6 +21,7 @@ function App() {
               <Route path='/tablas' element={<Tablas></Tablas>}></Route>  
               <Route path='/' element={<Login></Login>}></Route>  
               <Route path='/main' element={<App></App>}></Route>  
+              <Route path='/tablas/:tabla' element={<Read></Read>}></Route>
           </Routes> 
     </div>
       </Router>
