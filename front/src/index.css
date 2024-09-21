@@ -135,3 +135,13 @@ to{
 .button-card:hover{
   background: linear-gradient(-45deg, #00dbde 100% , #fc00ff 0% );
 }
+
+.rotate-plus{
+  animation: rotatePlus 0.2s linear forwards;
+}
+
+@keyframes rotatePlus {
+    to{
+      transform: rotate(90deg);
+    }
+}

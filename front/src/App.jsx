@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Tablas from './Tablas/Tablas';
 import Sidebar from './Sidebar';
 import Login from './login';
-import Read from './Tablas/Read';
+import Read from './Tablas/Read/Read';
 
 function App() {
       useEffect((()=>{
